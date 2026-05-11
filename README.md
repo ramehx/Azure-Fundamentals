@@ -5,7 +5,7 @@ This is an auxiliary repository for the Azure Fundamentals training program. It 
 ## Labs Overview
 This repository is organized into 5 labs, each covering essential Azure Fundamentals concepts and main resources:
 
-Lab 1: Azure Account Creation & Portal Navigation - Create a trial subscription for study and tests and familiarize yourself with Azure Portal and key features
+**[Lab 1: Azure Account Creation & Portal Navigation](./lab1/)** - Create a trial subscription for study and tests and familiarize yourself with Azure Portal and key features
 
 Lab 2: Creating a Resource Group and a Virtual Machine - Deploy your first resources on Azure Portal. 
 
