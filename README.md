@@ -1,4 +1,4 @@
-# Azure-Fundamentals
+# Azure Fundamentals trainning labs
 
 This is an auxiliary repository for the Azure Fundamentals training program. It contains hands-on labs designed to help you get started on the Portal and explore Azure's unique features and resources.
 
