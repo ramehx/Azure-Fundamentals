@@ -27,7 +27,7 @@
 
 1.6) Once your account is created, you`ll land on the Azure Portal home page
 
-OBS: This video gives some tips regarding the creation of Trial Account: https://www.youtube.com/watch?v=J48EaQkpUeo
+OBS: This video gives some extra tips regarding the creation of Trial Account: https://www.youtube.com/watch?v=J48EaQkpUeo
 
 
 
@@ -78,6 +78,9 @@ OBS: This video gives some tips regarding the creation of Trial Account: https:/
 4.1) Go to `Dashboard` in the left menu, then click `Edit` at the top
 
 4.2) Drag and drop widgets from the tile gallery: clock, resource metrics, quick links, Markdown panels
+
+<img width="1369" height="808" alt="image" src="https://github.com/user-attachments/assets/045c7c81-ee17-40e1-9ef9-401abdf42334" />
+
 
 4.3) Resize and rearrange tiles to suit your workflow
 
