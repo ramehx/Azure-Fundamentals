@@ -1,4 +1,8 @@
-# Azure Fundamentals trainning labs
+<p align="center"> <img width="30%" alt="image" src="https://github.com/user-attachments/assets/36f09de9-0661-4290-b0a5-f0f09656df88" /> </p>
+
+
+
+# Azure Fundamentals trainning labs      
 
 This is an auxiliary repository for the Azure Fundamentals training program. It contains hands-on labs designed to help you get started on the Portal and explore Azure's unique features and resources.
 
