@@ -7,7 +7,7 @@ This repository is organized into 5 labs, each covering essential Azure Fundamen
 
 **[Lab 1: Azure Account Creation & Portal Navigation](./lab1/)** - Create a trial subscription for study and tests and familiarize yourself with Azure Portal and key features
 
-Lab 2: Creating a Resource Group and a Virtual Machine - Deploy your first resources on Azure Portal. 
+**[Lab 2: Creating a Resource Group and a Virtual Machine](./lab2/)** - Deploy your first resources on Azure Portal. 
 
 Lab 3: Creating a Storage Account and Managing Blob Storage - Create a Storage Account and manage files and containers.
 
