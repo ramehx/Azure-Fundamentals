@@ -44,7 +44,7 @@ Example distribution for 10 students:
 
 1.3) Select your subscription from the dropdown (this is the billing boundary for your resources)
 
-1.4) Enter the name: rg-**<your_name>**-az900
+1.4) Enter the name: rg-**<your_name>**-lab
      
 **Naming convention tip:** use prefixes like 'rg' for Resource Groups, 'vm' for VMs, 'st' for Storage — this makes resources easy to identify at a glance.
 
@@ -77,7 +77,7 @@ Tags help you organize resources and track costs across projects — get into th
 | Subscription | The Azure subscription used for billing and resource management. | Select the default trial Subscription |
 | Resource Group | A logical container for managing related Azure resources together. | Resource group created previously |
 | **Instance Details**  |
-| VM Name | A unique identifier for the virtual machine within the resource group. | vm-**<your_name>**-az900 |
+| VM Name | A unique identifier for the virtual machine within the resource group. | vm-**<your_name>**-lab |
 | Region | The physical Azure datacenter location (e.g., East US, West Europe). | Same as your resource group |
 | Availability Options | Redundancy settings like Availability Zones or Sets for high availability. | 1 |
 | Security Type | Boot security level (Standard, Trusted Launch, or Confidential VM). | Standard |
