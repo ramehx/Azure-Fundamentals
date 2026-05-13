@@ -17,6 +17,6 @@ This repository is organized into 5 labs, each covering essential Azure Fundamen
 
 **[Lab 4: Exploring Access Controls and Policies in the Portal](./lab4/)** - Visualizing RBAC role assignments, Exploring Azure Policy definitions and Reviewing security recommendations in Defender
 
-Lab 5: Cost Management and Resource Monitoring - Exploring Azure Cost Management dashboards and Monitoring created resources with Azure Monitor
+**[Lab 5: Cost Management and Resource Monitoring](./lab5/)** - Exploring Azure Cost Management dashboards and Monitoring created resources with Azure Monitor
 
 
