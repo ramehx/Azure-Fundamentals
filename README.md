@@ -13,7 +13,7 @@ This repository is organized into 5 labs, each covering essential Azure Fundamen
 
 **[Lab 2: Creating a Resource Group and a Virtual Machine](./lab2/)** - Deploy your first resources on Azure Portal. 
 
-Lab 3: Creating a Storage Account and Managing Blob Storage - Create a Storage Account and manage files and containers.
+**[Lab 3: Creating a Storage Account and Managing Blob Storage](./lab3/)** - Create a Storage Account and manage files and containers.
 
 Lab 4: Exploring Access Controls and Policies in the Portal - Visualizing RBAC role assignments, Exploring Azure Policy definitions and Reviewing security recommendations in Defender
 
