@@ -4,7 +4,7 @@
 
 # Azure Fundamentals trainning labs      
 
-This is an auxiliary repository for the Azure Fundamentals training program. It contains hands-on labs designed to help you get started on the Portal and explore Azure's unique features and resources.
+Welcom to the Azure Fundamentals training program's auxiliary repository! It contains the trainning presentation and hands-on labs designed to help you get started on the Portal and explore Azure's unique features and resources.
 
 ## Labs Overview
 This repository is organized into 5 labs, each covering essential Azure Fundamentals concepts and main resources:
