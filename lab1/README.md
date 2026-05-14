@@ -6,9 +6,9 @@
 
 1.2) Click `Start free` or `Create a free account`
 
-<img width="1467" height="710" alt="image" src="https://github.com/user-attachments/assets/25e5093e-90ee-402b-8ab5-6fb4a1ab2453" />
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/25e5093e-90ee-402b-8ab5-6fb4a1ab2453" />
 
-<img width="1127" height="613" alt="image" src="https://github.com/user-attachments/assets/fc2e6be0-5fe5-4849-b376-1b1ab8674a78" />
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/fc2e6be0-5fe5-4849-b376-1b1ab8674a78" />
 
 1.3) Sign in with your Microsoft account (or create one if you don`t have one yet)
 
@@ -23,7 +23,7 @@
      - 12 months of free access to popular services
      - 55+ services that are always free
 
-<img width="729" height="829" alt="image" src="https://github.com/user-attachments/assets/d89cbf6a-8f92-45c3-a104-c416052336fc" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/d89cbf6a-8f92-45c3-a104-c416052336fc" />
 
 1.6) Once your account is created, you`ll land on the Azure Portal home page
 
@@ -41,12 +41,12 @@ OBS: This video gives some extra tips regarding the creation of Trial Account: h
 
 2.2) Try the global search bar at the top: type `Virtual Machines`, then `Storage accounts` — notice how it searches across services, resources, and documentation
 
-<img width="653" height="732" alt="image" src="https://github.com/user-attachments/assets/b8b2ec71-ffcc-4398-b67e-cb805b11f938" />
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/b8b2ec71-ffcc-4398-b67e-cb805b11f938" />
 
 2.3) Click `All services` and browse the categories: `Compute, Networking, Storage, Databases, AI + Machine Learning`
 
 
-<img width="999" height="779" alt="image" src="https://github.com/user-attachments/assets/23ab855a-87ba-49c6-aec9-aa3be50bf89a" />
+<img width="80%" alt="image" src="https://github.com/user-attachments/assets/23ab855a-87ba-49c6-aec9-aa3be50bf89a" />
 
 
 2.4) Notice the difference between `Home` (overview with quick links) and `Dashboard` (customizable workspace)
@@ -58,9 +58,18 @@ OBS: This video gives some extra tips regarding the creation of Trial Account: h
 
 3.1) Click the Cloud Shell icon (>_) in the top toolbar
 
+<img width="1005" height="167" alt="image" src="https://github.com/user-attachments/assets/ed3eb65e-b812-46da-9243-40d35396855a" />
+
 3.2) Choose `Bash` or `PowerShell` — Bash uses Linux commands, PowerShell uses Windows-style cmdlets. Either works for Azure management
 
-3.3) The first time, you`ll be asked to create a storage account to persist your files between sessions — click `Create storage`
+3.3) The first time, you'll be asked to create a storage account to persist your files between sessions — click `Create storage`
+
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/1bfe10a2-54f4-42e9-9cb0-433fe0e99602" />
+
+<img width="60%" alt="image" src="https://github.com/user-attachments/assets/2e8efb9a-e28d-4ab5-a278-aa2bdfa481a1" />
+
+<img width="1183" height="296" alt="image" src="https://github.com/user-attachments/assets/085f5b71-ac96-4120-bba6-2a68430a4329" />
+
 
 3.4) Try these commands to verify your setup:
      
@@ -71,6 +80,8 @@ OBS: This video gives some extra tips regarding the creation of Trial Account: h
 (lists your resource groups in a table format)
 
 3.5) You can upload files, use code editors (code .), and run scripts directly in the Cloud Shell
+
+<img width="912" height="183" alt="image" src="https://github.com/user-attachments/assets/aa09ab66-33fc-44b7-a71e-7d88a05b6642" />
 
 ---
 ## STEP 4: Customize Your Dashboard
@@ -88,4 +99,4 @@ OBS: This video gives some extra tips regarding the creation of Trial Account: h
 
 4.5) You can create multiple dashboards for different purposes (e.g., `Monitoring`, `Costs`, `Development`) using the `+ New dashboard` button
 
-TIP: Bookmark portal.azure.com — you'll use it throughout this entire training program. The more familiar you are with the portal layout, the faster you`ll work in later sessions.
+TIP: Bookmark https://portal.azure.com — you'll use it throughout this entire training program. The more familiar you are with the portal layout, the faster you`ll work in later sessions.
