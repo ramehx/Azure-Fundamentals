@@ -8,6 +8,9 @@
 
 1.3) Click the `Role assignments` tab to see who has access and at what level.
 
+<img width="1653" height="700" alt="image" src="https://github.com/user-attachments/assets/047615c2-13ba-47be-aab1-a21a1d05ab33" />
+
+
 1.4) Look at the built-in roles listed:
 
 - **Owner** — full access to all resources, can delegate access to others.
@@ -16,21 +19,37 @@
 
 - **Reader** — can only view existing resources, no changes allowed.
 
-- **User Access Administrator** — can manage user access to resources.
+- **Cost Management Reader** — Can view cost data and configuration.
 
-1.5) Click `Check access` and type your own email — you`ll see which roles are assigned to you and where they were inherited from.
+1.5) Click `Check access` and type your own name or email — you`ll see which roles are assigned to you and where they were inherited from.
+
+<img width="899" height="492" alt="image" src="https://github.com/user-attachments/assets/65e6289b-f298-416f-b644-a5bf0eac3998" />
+
+<img width="526" height="273" alt="image" src="https://github.com/user-attachments/assets/6cc073e2-1155-46c7-9372-6637bbbbdd8e" />
+
 
 ---
 
 ## STEP 2: Understand Role Assignment (Read-Only Walkthrough)
 
-2.1) Click `+ Add` > `Add role assignment` to see the workflow (you don`t need to complete it).
+2.1) Click `+ Add` > `Add role assignment` to see the workflow (you don't need to complete it).
+
+<img width="568" height="281" alt="image" src="https://github.com/user-attachments/assets/7ef039dd-f118-40b8-814a-1ab777492667" />
 
 2.2) Browse the available roles — notice there are dozens beyond the basic four, like `Virtual Machine Contributor` or `Storage Blob Data Reader`
 
+<img width="1468" height="813" alt="image" src="https://github.com/user-attachments/assets/aea7490d-302c-4f3a-8451-1e8e6849415f" />
+
+
 2.3) On the `Members` tab, you`d search for a user, group, or service principal to assign the role to.
 
+<img width="785" height="491" alt="image" src="https://github.com/user-attachments/assets/5979366e-f662-432f-88a5-1358b3609367" />
+
+<img width="509" height="555" alt="image" src="https://github.com/user-attachments/assets/89b81d65-b530-4228-814f-19f57ebac6a0" />
+
 2.4) On the `Conditions` tab (available for some roles), you can add fine-grained conditions like `only allow access to blobs tagged with department=finance`
+
+<img width="1316" height="797" alt="image" src="https://github.com/user-attachments/assets/e865f01d-bc26-4f4a-acd8-e7def4f9300b" />
 
 2.5) Key concept — inheritance: a role assigned at the subscription level automatically applies to all resource groups and resources below it. This is why the hierarchy matters.
 
