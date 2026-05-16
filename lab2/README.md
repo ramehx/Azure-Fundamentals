@@ -52,6 +52,8 @@ OBS: on the field of `<your_name>`, each student must use a **unique key** to av
 
 1.5) Select the region according to the table above.
 
+<img width="726" height="356" alt="image" src="https://github.com/user-attachments/assets/b69c4cbc-bd6c-48e7-8386-0d01b8505765" />
+
 **OBS:** in a normal scenario, choosing properly the region is important because it affects latency, pricing, and data residency compliance.
 
 1.6) Go to the `Tags` tab and add:
@@ -60,9 +62,14 @@ Environment = `Training`
 
 Owner = `<your_name>`
 
+<img width="762" height="328" alt="image" src="https://github.com/user-attachments/assets/85f930fe-4f35-4905-bb92-9f016b484fc3" />
+
+
 Tags help you organize resources and track costs across projects — get into the habit of tagging everything
 
 1.7) Click `Review + Create`, then `Create`
+
+<img width="480" height="406" alt="image" src="https://github.com/user-attachments/assets/a9ab6dd9-ef21-4cb2-bb8e-41fd1cb056db" />
 
 ---
 
@@ -114,12 +121,14 @@ https://azure.microsoft.com/pt-pt/pricing/details/virtual-machines/linux/
 
 3.1) Go to `Review + Create` — Wait for the conformity check. Review the summary and the estimated cost per hour/month at the bottom.
 
+<img width="839" height="790" alt="image" src="https://github.com/user-attachments/assets/1bc9055c-5286-489b-b043-700c09a53d6f" />
+
 3.2) Click `Create` and wait for the deployment (typically 2-5 minutes)
 
 <img width="1622" height="567" alt="image" src="https://github.com/user-attachments/assets/8097053d-3c99-4239-ad33-f3af2a8dd968" />
 
 
-3.3) Once deployed, click `Go to resource` to see the VM overview: public IP, status, OS, size, and location, etc.
+3.3) Once deployed, click `Go to resource` to see the VM overview: public IP, status, OS, size, and location, etc. Explore all the options and menus.
 
 <img width="922" height="497" alt="image" src="https://github.com/user-attachments/assets/8985c435-34a8-43a2-8907-af024a8f12dc" />
 
