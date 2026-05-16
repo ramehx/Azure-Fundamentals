@@ -1,37 +1,5 @@
 # LAB 3 — Creating a Storage Account and Managing Blob Storage
 
-## Region Assignment
-
-To avoid hitting the **trial subscription quotas**, the class will distribute deployments across different regions.
-
-Choose **ONE** of the following regions:
-
-| Region |
-|------|
-| westeurope |
-| northeurope |
-| norwayeast |
-| switzerlandnorth |
-| canadacentral |
-
-Important rules:
-
-- Each student must **pick only one region**
-- Coordinate with the other students
-- **Maximum 2 students per region**
-
-Example distribution for 10 students:
-
-| Region | Students |
-|------|------|
-| westeurope | 2 |
-| northeurope | 2 |
-| norwayeast | 2 |
-| switzerlandnorth | 2 |
-| canadacentral | 2 |
-
----
-
 
 ## STEP 1: Create a Storage Account
 
