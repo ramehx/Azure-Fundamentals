@@ -8,11 +8,13 @@ Choose **ONE** of the following regions:
 
 | Region |
 |------|
-| westeurope |
-| northeurope |
-| norwayeast |
-| switzerlandnorth |
-| canadacentral |
+| West Europe |
+| North Europe |
+| Norway East |
+| Switzerland North |
+| Canada Central |
+| South Africa North|
+
 
 Important rules:
 
@@ -20,15 +22,18 @@ Important rules:
 - Coordinate with the other students
 - **Maximum 2 students per region**
 
-Example distribution for 10 students:
+Example distribution for 12 students:
 
 | Region | Students |
 |------|------|
-| westeurope | 2 |
-| northeurope | 2 |
-| norwayeast | 2 |
-| switzerlandnorth | 2 |
-| canadacentral | 2 |
+| West Europe | 2 |
+| North Europe | 2 |
+| Norway East | 2 |
+| Switzerland North | 2 |
+| Canada Central | 2 |
+| South Africa North | 2 |
+
+**OBS:** in a normal scenario, choosing properly the region is important because it affects latency, pricing, and data residency compliance.
 
 ---
 
@@ -48,13 +53,11 @@ Example distribution for 10 students:
      
 **Naming convention tip:** use prefixes like 'rg' for Resource Groups, 'vm' for VMs, 'st' for Storage — this makes resources easy to identify at a glance.
 
-OBS: on the field of `<your_name>`, each student must use a **unique key** to avoid overwriting another student's state. 
+OBS: on the field of `<your_name>`, each student must use a **unique key** to avoid naming conflict. 
 
 1.5) Select the region according to the table above.
 
 <img width="726" height="356" alt="image" src="https://github.com/user-attachments/assets/b69c4cbc-bd6c-48e7-8386-0d01b8505765" />
-
-**OBS:** in a normal scenario, choosing properly the region is important because it affects latency, pricing, and data residency compliance.
 
 1.6) Go to the `Tags` tab and add:
 
@@ -64,8 +67,7 @@ Owner = `<your_name>`
 
 <img width="762" height="328" alt="image" src="https://github.com/user-attachments/assets/85f930fe-4f35-4905-bb92-9f016b484fc3" />
 
-
-Tags help you organize resources and track costs across projects — get into the habit of tagging everything
+Tags help you organize resources and track costs across projects — get into the habit of tagging everything.
 
 1.7) Click `Review + Create`, then `Create`
 
@@ -110,16 +112,18 @@ Tags help you organize resources and track costs across projects — get into th
 | **Tags** |
 | Tags | Metadata name/value pairs used for organizing and billing. | Repeat the same tags as the Resource Group |
 
-OBS: For the purpose of this demonstration, we will use a lightweight VM configuration deployed in selected Azure regions. This approach helps minimize consumption of the Azure trial subscription credits while also avoiding common availability restrictions applied to free or trial subscriptions. Due to capacity constraints and regional policies, some Azure regions or VM sizes may not be available for free-tier accounts. Participants are encouraged to experiment with different combinations of regions, VM images, and VM sizes to better understand resource availability across Azure regions.
+OBS: For the purpose of this demonstration, we will use a lightweight VM configuration deployed in selected Azure regions. This approach helps minimize consumption of the Azure trial subscription credits while also avoiding common availability restrictions applied to free or trial subscriptions. Due to capacity constraints and regional policies, some Azure regions or VM sizes may not be available for free-tier accounts. You are encouraged to experiment with different combinations of regions, VM images, and VM sizes to better understand resource availability across Azure regions.
 
 To learn more about pricing for different VM configurations: 
 
 https://azure.microsoft.com/pt-pt/pricing/details/virtual-machines/linux/ 
 
+<img width="751" height="860" alt="image" src="https://github.com/user-attachments/assets/090cbf0c-1340-475c-aee4-37c63d3d6644" />
+
 --- 
 ## STEP 3: Deploy the VM
 
-3.1) Go to `Review + Create` — Wait for the conformity check. Review the summary and the estimated cost per hour/month at the bottom.
+3.1) Follow the deployment wizard filling the recommended parameters until the `Review + Create` tab — Click it and wait for the conformity check. Review the estimated cost per hour/month and the parameter summary.
 
 <img width="839" height="790" alt="image" src="https://github.com/user-attachments/assets/1bc9055c-5286-489b-b043-700c09a53d6f" />
 
@@ -141,13 +145,24 @@ https://azure.microsoft.com/pt-pt/pricing/details/virtual-machines/linux/
 
 4.2) For Windows: click `Connect` > `RDP`, download the RDP file, and open it with your credentials
 
+OBS: Use the `Check Access` option to check and troubleshoot any connectivity issue to the VM.
+
+<img width="1202" height="698" alt="image" src="https://github.com/user-attachments/assets/ba116fe4-8dc3-422f-9b8e-99c502200f52" />
+
+<img width="602" height="759" alt="image" src="https://github.com/user-attachments/assets/467da964-334e-4d0f-a066-64183b6d6ed6" />
+
 4.3) Once connected, try these commands to confirm everything works:
-     hostname       (shows the VM name)
-     ip addr        (shows network configuration)
-     free -h        (shows available memory)
-     lsb_release -a (shows the Linux distribution details)
+ - hostname       (shows the VM name)
+
+ - ip addr        (shows network configuration)
+ 
+ - free -h        (shows available memory)
+ 
+ - lsb_release -a (shows the Linux distribution details)
 
 4.4) Back in the portal, check the Metrics section to see real-time CPU, network, and disk activity
+
+<img width="1885" height="839" alt="image" src="https://github.com/user-attachments/assets/6d4a3aa1-e877-443a-ab8e-41a74f7cc38b" />
 
 --- 
 ## STEP 5: Clean Up (IMPORTANT!)
@@ -156,8 +171,18 @@ https://azure.microsoft.com/pt-pt/pricing/details/virtual-machines/linux/
 
 5.2) Click `Delete resource group`
 
+<img width="1274" height="575" alt="image" src="https://github.com/user-attachments/assets/c71446eb-ee3f-418d-b3a5-882bae0030f0" />
+
 5.3) Type the resource group name to confirm, then delete — **this removes ALL resources inside it**
+
+<img width="762" height="866" alt="image" src="https://github.com/user-attachments/assets/eeeb7464-aa06-4bed-ba7e-c40c46f2761f" />
+
 
 5.4) Always clean up after labs to avoid unexpected charges. This is a best practice for any test/dev environment
 
 NOTE: If you want to keep practicing, you can stop (deallocate) the VM instead of deleting it. A stopped VM does not incur compute charges, but storage charges still apply.
+
+BONUS TIP: Go to your subscription and then `Usage + Quotas` to monitor the current usage of your trial account' usage and regional resource quotas as you deploy the resources.
+
+<img width="1789" height="850" alt="image" src="https://github.com/user-attachments/assets/e9fce9b5-967c-41bd-afc8-0bace7c9665b" />
+
