@@ -63,9 +63,18 @@
 
 3.2) Click `Definitions` in the left menu to see all built-in policy definitions.
 
+<img width="1800" height="761" alt="image" src="https://github.com/user-attachments/assets/9b352f93-54dc-4ec8-aac5-443f170f71b9" />
+
+
 3.3) Use the Category filter to browse policies by topic: try `Tags`, `Compute`, `Storage`, `Monitoring`.
 
+<img width="474" height="343" alt="image" src="https://github.com/user-attachments/assets/8c558186-1af4-43db-9652-637705a99863" />
+
+
 3.4) Open an example policy: `Require a tag on resource groups`.
+
+<img width="965" height="735" alt="image" src="https://github.com/user-attachments/assets/18385781-d4e5-4037-8f9f-5b3cc689a54f" />
+
 
 3.5) Read the policy rule — it follows an if/then structure:
 
@@ -74,6 +83,9 @@
 - THEN: the effect is applied (Deny = block it, Audit = log it, Modify = auto-fix it).
 
 3.6) Notice how policies are written in JSON.
+
+<img width="675" height="784" alt="image" src="https://github.com/user-attachments/assets/9963f92b-32f6-4b9a-bf7f-0144803a4f2e" />
+
 
 ---
 
