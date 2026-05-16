@@ -103,6 +103,11 @@ Tags help you organize resources and track costs across projects — get into th
 | **Tags** |
 | Tags | Metadata name/value pairs used for organizing and billing. | Repeat the same tags as the Resource Group |
 
+OBS: For the purpose of this demonstration, we will use a lightweight VM configuration deployed in selected Azure regions. This approach helps minimize consumption of the Azure trial subscription credits while also avoiding common availability restrictions applied to free or trial subscriptions. Due to capacity constraints and regional policies, some Azure regions or VM sizes may not be available for free-tier accounts. Participants are encouraged to experiment with different combinations of regions, VM images, and VM sizes to better understand resource availability across Azure regions.
+
+To learn more about pricing for different VM configurations: 
+
+https://azure.microsoft.com/pt-pt/pricing/details/virtual-machines/linux/ 
 
 --- 
 ## STEP 3: Deploy the VM
@@ -111,7 +116,14 @@ Tags help you organize resources and track costs across projects — get into th
 
 3.2) Click `Create` and wait for the deployment (typically 2-5 minutes)
 
+<img width="1622" height="567" alt="image" src="https://github.com/user-attachments/assets/8097053d-3c99-4239-ad33-f3af2a8dd968" />
+
+
 3.3) Once deployed, click `Go to resource` to see the VM overview: public IP, status, OS, size, and location, etc.
+
+<img width="922" height="497" alt="image" src="https://github.com/user-attachments/assets/8985c435-34a8-43a2-8907-af024a8f12dc" />
+
+<img width="1609" height="852" alt="image" src="https://github.com/user-attachments/assets/b98bbab1-ceaa-46d3-8962-7094ddce552f" />
 
 --- 
 ## STEP 4: Connect to Your VM
