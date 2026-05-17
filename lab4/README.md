@@ -93,6 +93,8 @@
 
 4.1) Click `Assignments` in the left menu to see policies currently assigned to your subscription.
 
+<img width="1888" height="597" alt="image" src="https://github.com/user-attachments/assets/6d0d77f1-208e-4030-9a0b-e3e9cc056c9a" />
+
 4.2) Click `+ Assign policy` to explore the workflow:
 
 - Scope: where the policy applies (subscription or resource group).
@@ -100,6 +102,9 @@
 - Policy definition: which rule to enforce.
 
 - Parameters: specific values (e.g., tag name = `Environment`)
+
+<img width="1898" height="769" alt="image" src="https://github.com/user-attachments/assets/dff6f11f-f163-45d4-a9d0-4f5f9693573f" />
+
 
 4.3) If a policy with `Deny` effect is assigned and you try to create a resource group without the required tag, Azure will block the creation with an error message.
 
@@ -113,11 +118,15 @@
 
 5.2) Look at the overview dashboard: Secure Score, security recommendations, and active alerts.
 
-5.3) Click on your Secure Score — it's a percentage that reflects how many security recommendations you've implemented. Higher is better.
+<img width="1394" height="831" alt="image" src="https://github.com/user-attachments/assets/8b570904-7268-49ee-a24d-8529af24f09c" />
 
-5.4) Go to `Recommendations` and browse the categories: networking, compute, data, identity, and IoT.
+5.3) Explore other tabs like: 
 
-5.5) Open any recommendation to see the issue description, affected resources, and step-by-step remediation instructions.
+ - **Secure Score:** graph that reflects how many security recommendations you've implemented. Higher is better.
 
-5.6) Check the `Regulatory compliance` dashboard — it shows how your environment maps to standards like ISO 27001, PCI DSS, and SOC 2.
+ - **Recommendations:** Tracks security vulnerabilities, configuration errors and exposed secrets on your environment. You can browse through categories: networking, compute, data, identity, and IoT.
+ 
+ - **Regulatory compliance dashboard:** Shows how your environment maps to standards like ISO 27001, PCI DSS, and SOC 2.
+
+ - **Network Security:** Enable Azure network security features like: Firewall, DDoS protection and Web Application Firewall (WAF)
 
